@@ -32,8 +32,8 @@ export default env => {
     plugins: [
       new Repack.RepackPlugin(),
       new Repack.plugins.ModuleFederationPluginV2({
-        name: 'MiniAppTemplate',
-        filename: 'MiniAppTemplate.js.bundle',
+        name: 'CreditMiniApp',
+        filename: 'CreditMiniApp.js.bundle',
         exposes: {
           './App': './App',
         },
